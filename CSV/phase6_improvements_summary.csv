@@ -1,0 +1,11 @@
+Aspect,Original Paper,Our Approach,Improvement
+Features,6 (manual),19 (systematic selection),+217%
+Dataset Size,"10,000","307,426","+2,974%"
+Class Balancing,None,SMOTE 50:50,New
+ROC-AUC,Not reported,0.8919,New metric
+Recall (standard),Unknown,0.8654,Reported
+Recall (optimized),Unknown,0.9595,+95.5%
+Risk Stratification,Binary only,5-tier system,New
+Explainability,None,Full SHAP,New
+Calibration,Not checked,Error: 0.1971,New
+Statistical Validation,Single split,5-fold CV,New

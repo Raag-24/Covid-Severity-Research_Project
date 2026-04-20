@@ -1,0 +1,5 @@
+Model,Features,ROC-AUC,Recall,Accuracy,F1-Score,TP,FN,Train_Time
+Logistic Regression,Enhanced (20),0.8914,0.8277,0.8161,0.5232,4416,919,9.92
+Random Forest,Enhanced (20),0.8553,0.7563,0.8089,0.4911,4035,1300,4.55
+LightGBM,Enhanced (20),0.8882,0.8261,0.8093,0.5137,4407,928,1.46
+XGBoost,Enhanced (20),0.8882,0.8283,0.8085,0.5133,4419,916,1.67

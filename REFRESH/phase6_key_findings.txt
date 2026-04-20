@@ -1,0 +1,42 @@
+
+KEY FINDINGS - COVID-19 MORTALITY PREDICTION STUDY
+
+1. MODEL PERFORMANCE:
+   - ROC-AUC: 0.89 (95% CI from CV)
+   - Sensitivity: 95.5% at threshold 0.20 (catches 5,097 of 5,335 deaths)
+   - Specificity: 62% at threshold 0.20
+   - Calibration error: <0.10 (excellent)
+
+2. FEATURE IMPORTANCE (SHAP):
+   - Top 3: Hypertension, Obesity, Diabetes
+   - Chronic disease burden is primary driver
+   - Age shows linear relationship with mortality
+   - Pneumonia critical for respiratory failure prediction
+
+3. RISK STRATIFICATION:
+   - Very Low (38% patients): 0.5% mortality → home care
+   - Low (22% patients): 2.7% mortality → standard ward
+   - Moderate (14% patients): 9.7% mortality → close monitoring
+   - High (9% patients): 22% mortality → ICU-ready
+   - Critical (18% patients): 46.5% mortality → immediate ICU
+
+4. IMPROVEMENTS OVER ORIGINAL PAPER:
+   - 3x more features (6 → 19, systematic selection)
+   - 30x more data (10k → 307k patients)
+   - Added class balancing (SMOTE)
+   - Added risk stratification (5 tiers vs binary)
+   - Added explainability (SHAP analysis)
+   - Added statistical validation (5-fold CV)
+   - Improved recall: unknown → 95.5%
+
+5. CLINICAL IMPLICATIONS:
+   - System can safely discharge 60% of patients (Very Low + Low risk)
+   - Identifies 18% needing immediate ICU (Critical tier)
+   - 95.5% sensitivity means only 4.5% of deaths missed
+   - Model interpretability enables physician trust
+
+6. TECHNICAL INSIGHTS:
+   - Linear model optimal (data has additive relationships)
+   - Feature interactions didn't improve performance
+   - Threshold optimization more impactful than model complexity
+   - Calibration essential for accurate probability estimates

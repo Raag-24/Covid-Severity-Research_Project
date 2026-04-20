@@ -1,0 +1,21 @@
+Feature,Mean_SHAP,Positive_Impact_%,Primary_Effect
+chronic_disease_count,3.4185772857793957,83.64,Increases Death Risk
+elderly_pneumonia,0.16806963186270754,90.58,Increases Death Risk
+high_risk_triad,0.02242623111486033,95.54,Increases Death Risk
+sex,0.01917941237663932,54.1,Increases Death Risk
+copd_pneumonia,0.010980787422305587,99.16,Increases Death Risk
+obesity_diabetes,0.007559744245607459,95.04,Increases Death Risk
+cardiovascular_elderly,0.0013251202217431878,98.98,Increases Death Risk
+male_elderly,0.0012361784546473297,91.92,Increases Death Risk
+renal_hypertension,-0.00866096649018513,1.38,Decreases Death Risk
+diabetes_hypertension,-0.009230271043736579,8.12,Decreases Death Risk
+age_group,-0.11150055819516792,18.759999999999998,Decreases Death Risk
+other_disease,-0.17407601020794947,2.8000000000000003,Decreases Death Risk
+renal_chronic,-0.2632648155843882,2.18,Decreases Death Risk
+obesity,-0.38068777634548295,20.66,Decreases Death Risk
+copd,-0.4116009916403238,2.04,Decreases Death Risk
+cardiovascular,-0.44212321426650686,2.2800000000000002,Decreases Death Risk
+age,-0.5255321918535744,28.28,Decreases Death Risk
+diabetes,-0.7936573201903633,15.459999999999999,Decreases Death Risk
+pneumonia,-0.8467655679331847,23.7,Decreases Death Risk
+hypertension,-1.3045962284380361,19.82,Decreases Death Risk

@@ -1,0 +1,11 @@
+Model,Features,Data_Size,Balanced,Accuracy,Recall_0.50,Recall_0.20,ROC-AUC,Calibration_Error,Interpretable,Risk_Tiers
+Original Paper - RF,6,10000,No,0.88,,,,,No,No
+Original Paper - DT,6,10000,No,0.88,,,,,No,No
+Original Paper - SVM,6,10000,No,0.87,,,,,No,No
+Original Paper - KNN,6,10000,No,0.86,,,,,No,No
+Original Paper - LR,6,10000,No,0.88,,,,,No,No
+Our Baseline - LR (Phase 5),10,307426,Yes,0.8164,0.8287,0.9554,0.893,,Yes,No
+Our Enhanced - LR (Phase 6),19,307426,Yes,0.8114203454894434,0.8389878163074039,0.9585754451733833,0.8918427398201183,,Yes,Yes
+Our Calibrated - LR (Day 2),19,307426,Yes,0.8114203454894434,0.8654170571696345,0.9595126522961575,0.8918887380598399,0.19709627595146056,Yes,Yes
+Our LightGBM (Phase 5),10,307426,Yes,0.8092,0.8232,,0.8869,,No,No
+Our XGBoost (Phase 5),10,307426,Yes,0.8116,0.8154,,0.8862,,No,No

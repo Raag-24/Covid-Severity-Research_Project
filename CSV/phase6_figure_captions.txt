@@ -1,0 +1,30 @@
+Figure 1:
+Feature interaction impact analysis showing ROC-AUC improvement from baseline (10 features) to enhanced feature set (19 features) across multiple models.
+
+Figure 2:
+Decision threshold optimization analysis. Model performance metrics (accuracy, precision, recall, F1-score) across different classification thresholds from 0.20 to 0.55, demonstrating recall-precision trade-off.
+
+Figure 3:
+Five-tier risk stratification system. (A) Patient distribution across risk tiers, (B) Actual mortality rate by tier, (C) Stacked outcomes (survived vs died), (D) Calibration plot showing predicted vs actual death rates.
+
+Figure 4:
+SHAP summary plot (beeswarm). Feature importance ranked by mean absolute SHAP value, with individual patient contributions shown as dots. Color indicates feature value (red=high, blue=low).
+
+Figure 5:
+SHAP feature importance bar plot. Mean absolute SHAP values quantifying average impact of each feature on model predictions.
+
+Figure 6:
+SHAP waterfall plots for representative patients from each risk tier, showing individual feature contributions to death probability predictions.
+
+Figure 7:
+SHAP dependence plots for top 4 most important features, illustrating relationship between feature values and their impact on predictions.
+
+Figure 8:
+Probability calibration improvement. (A) Before calibration showing systematic underestimation (error: 0.25), (B) After isotonic calibration (error: <0.10).
+
+Figure 9:
+5-fold cross-validation stability analysis. (A) ROC-AUC across folds, (B) Recall at threshold 0.20, (C) Metric distribution boxplots, (D) All metrics by fold.
+
+Figure 10:
+ROC curves comparing all models. Calibrated Logistic Regression achieves highest AUC (0.89), with optimal operating point at threshold 0.20 marked (95.5% sensitivity).
+

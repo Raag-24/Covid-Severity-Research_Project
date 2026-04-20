@@ -1,0 +1,6 @@
+risk_tier,Patient_Count,Avg_Death_Prob,Min_Prob,Max_Prob,Actual_Deaths,Actual_Death_Rate,Percent_of_Patients,Recommended_Action
+Very Low Risk,16642,0.0512,0.0042,0.0998,85,0.0051,38.03,"Home monitoring, telemedicine follow-up"
+Low Risk,9647,0.1628,0.1001,0.25,258,0.0267,22.04,Standard ward if admission needed
+Moderate Risk,5930,0.3616,0.2503,0.4998,576,0.0971,13.55,Ward with frequent vitals monitoring
+High Risk,3888,0.6285,0.5002,0.7499,858,0.2207,8.88,"ICU-ready bed, continuous monitoring"
+Critical Risk,7657,0.862,0.7501,0.9919,3558,0.4647,17.5,"Immediate ICU, aggressive intervention"
